@@ -530,7 +530,7 @@ figcaption {
 .button-ghost {
   display: inline-block;
   height: 60px;
-  min-width: 240px;
+  min-width: 200px;
   padding: 18px 20px 20px;
   border: 1.5px solid #fff;
   border-radius: 3px;
@@ -1648,6 +1648,10 @@ figcaption {
   box-shadow: 0 14px 26px 0 rgba(0, 0, 0, 0.1);
 }
 
+.screen-img-grab.wallet {
+  display: none;
+}
+
 .downloads-grid {
   min-height: 580px;
   padding: 60px;
@@ -1677,10 +1681,6 @@ figcaption {
   grid-row-gap: 30px;
   -ms-grid-rows: auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
-}
-
-.download-buttons-grid.hidden {
-  display: none;
 }
 
 .downloads-wallet-version {
@@ -2800,6 +2800,7 @@ figcaption {
 }
 
 .protocol-image-wrap {
+  position: relative;
   margin-bottom: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2995,6 +2996,10 @@ figcaption {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+.protocol-logo {
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3819,6 +3824,7 @@ figcaption {
     line-height: 1.1em;
   }
   .protocol-big-wrapper {
+    padding-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -4593,32 +4599,6 @@ figcaption {
   justify-self: start;
 }
 
-#w-node-22baf2e93bd8-d7b94538 {
-  -ms-grid-column-align: start;
-  justify-self: start;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 2;
-  grid-column-start: span 2;
-  -ms-grid-column-span: 2;
-  grid-column-end: span 2;
-}
-
-#w-node-cb3de9c95226-d7b94538 {
-  -ms-grid-column-align: start;
-  justify-self: start;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 2;
-  grid-column-start: span 2;
-  -ms-grid-column-span: 2;
-  grid-column-end: span 2;
-}
-
 #w-node-cd3bceab7c02-d7b94538 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
@@ -4661,6 +4641,32 @@ figcaption {
   grid-row-end: 5;
   -ms-grid-column-align: start;
   justify-self: start;
+}
+
+#w-node-22baf2e93bd8-d7b94538 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-cb3de9c95226-d7b94538 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
 }
 
 #w-node-6096e79c24cf-d7b94538 {
@@ -5320,6 +5326,12 @@ figcaption {
     -ms-grid-row: 3;
     grid-row-start: 3;
   }
+  #w-node-1465068bdf84-7ec5c14f {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
   #w-node-5181204afa6c-204afa2d {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -5467,28 +5479,28 @@ figcaption {
     align-self: center;
     -ms-grid-column-align: start;
     justify-self: start;
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
     -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
+    grid-row-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
     -ms-grid-column-span: 2;
-    grid-column-end: span 2;
+    grid-column-end: 3;
   }
   #w-node-a8c5aafbe6c5-aafbe69c {
     -ms-grid-row-align: center;
     align-self: center;
     -ms-grid-column-align: center;
     justify-self: center;
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
     -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
+    grid-row-end: 3;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
     -ms-grid-column-span: 2;
-    grid-column-end: span 2;
+    grid-column-end: 3;
   }
   #w-node-2d8025dec6ff-164142af {
     -webkit-box-ordinal-group: 1;
