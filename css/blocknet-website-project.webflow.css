@@ -3023,6 +3023,10 @@ figcaption {
   margin-bottom: 40px;
 }
 
+.html-embed {
+  color: #000529;
+}
+
 @media screen and (min-width: 1280px) {
   .link.blue.download {
     background-image: url('../images/save-24px-blue.svg');

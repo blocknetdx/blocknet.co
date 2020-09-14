@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Sep 14 2020 11:07:04 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Sep 14 2020 11:49:56 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f27d25457d2ed4f0fafcc0d" data-wf-site="5f1960143510ee817fa57da1">
 <head>
   <meta charset="utf-8">
@@ -18,6 +18,32 @@
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109213957-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-109213957-2');
+    </script>
+  <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+            new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KGPT75V');
+    </script>
 </head>
 <body class="body">
   <div data-animation="default" class="navbar w-nav" data-easing2="ease-in-out" data-easing="ease-in-out" data-collapse="medium" data-w-id="d35dffeb-0076-0599-6e1c-5bcf354f093e" role="banner" data-duration="400" data-doc-height="1">
@@ -105,14 +131,18 @@
           <p id="w-node-e5765f78ba6c-5f78ba66" class="p-short text-center-mobile">Subscribe for the latest Blocknet updates and news</p>
         </div>
         <div id="w-node-e5765f78ba6e-5f78ba66" class="newsletter-form-wrap">
-          <div class="form-block w-form">
-            <form id="wf-form-newsletter-form" name="wf-form-newsletter-form" data-name="newsletter form" action="https://blocknet.us16.list-manage.com/subscribe/post?u=5d0a376e982034a2ddd6edb98&amp;id=6ae2c503df" method="post" class="newsletter-form"><input type="email" class="text-input newsletter-email w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" id="email" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="button subscribe w-button"></form>
-            <div class="w-form-done">
-              <div>Thank you for joining the Blocknet newsletter.</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Something went wrong while submitting the form.</div>
-            </div>
+          <div class="w-embed">
+            <form id="mc-embedded-subscribe-form" action="https://blocknet.us16.list-manage.com/subscribe/post?u=5d0a376e982034a2ddd6edb98&amp;id=6ae2c503df" method="post" name="mc-embedded-subscribe-form" class="inline-form validate" target="_blank" novalidate="">
+              <div class="form-inner newsletter-form">
+                <div>
+                  <input id="mce-EMAIL" class="text-input newsletter-email" type="email" value="" name="EMAIL" placeholder="Email Address" required="">
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_5d0a376e982034a2ddd6edb98_6ae2c503df" tabindex="-1" value="">
+                  </div>
+                </div>
+                <div><button id="mc-embedded-subscribe" type="submit" class="button subscribe" name="subscribe"></button></div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
