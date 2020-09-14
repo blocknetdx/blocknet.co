@@ -1563,6 +1563,27 @@ figcaption {
   background-color: #fff;
 }
 
+.news-item-header {
+  font-size: 22px;
+  line-height: 1.3em;
+}
+
+.news-item-img-wrap {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .news-item-content {
   padding: 30px 30px 40px;
   -webkit-box-flex: 1;
@@ -3440,6 +3461,7 @@ figcaption {
     overflow: hidden;
     width: 100%;
     max-height: none;
+    min-height: auto;
   }
   .news-item-content {
     padding-right: 20px;
